@@ -6,8 +6,8 @@ body {
   font-style: normal;
 }
 
-img {
-  width: 100%;
+a {
+  text-decoration: none;
 }
 
 nav {
@@ -21,7 +21,6 @@ nav div {
   display: flex;
   align-items: center;
   float: right;
-  justify-content: space-between;
 }
 
 nav img {
@@ -30,15 +29,11 @@ nav img {
 
 nav a h4 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   color: #a5d2c7;
   text-shadow: -1px 0 #052f5f, 0 1px #052f5f, 1px 0 #052f5f, 0 -1px #052f5f;
   margin: 20px;
-}
-
-nav a:hover {
-  cursor: pointer;
 }
 
 header img {
@@ -66,18 +61,27 @@ header {
   margin: 0px auto;
 }
 
+.projectSection h2 {
+  font-size: 3vw;
+}
+
 .projects {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .project {
   text-align: left;
-  display: inline;
   margin: 5px;
   background: #f8d896;
   padding: 5px;
   border: 5px solid #b58e67;
   border-radius: 5px;
+  font-size: 1.9vw;
+}
+
+.project h3 {
+  font-size: 2.4vw;
 }
 
 footer {

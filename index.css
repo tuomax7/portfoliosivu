@@ -1,9 +1,10 @@
 body {
   background-color: #f9f0e0;
   color: #052f5f;
-  margin: 0px;
+  margin: 0 auto;
   font-family: "Source Code Pro", monospace;
   font-style: normal;
+  max-width: 1200px;
 }
 
 a {
@@ -74,7 +75,19 @@ header {
   margin: 0px auto;
 }
 
-.projectSection a {
+.project a {
+  font-size: 2.4vw;
+}
+
+#pathbuilder {
+  font-size: 1.9vw;
+}
+
+#quizfrenzy {
+  font-size: 1.9vw;
+}
+
+.projectSection h2 {
   font-size: 3vw;
 }
 
@@ -93,17 +106,14 @@ header {
   font-size: 1.9vw;
 }
 
-.project h3 {
-  font-size: 2.4vw;
-}
-
 .projectImg {
   width: 40%;
+  height: fit-content;
   border: 3px solid #b58e67;
   border-radius: 5px;
 }
 
-#pathbuilderImg {
+#quizfrenzyImg {
   width: 20%;
 }
 
@@ -134,6 +144,50 @@ footer a {
 
 .linklogo {
   height: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .top-left {
+    font-size: 30px;
+  }
+
+  .projectSection a {
+    font-size: 28.8px;
+  }
+
+  .projectSection h2 {
+    font-size: 36px;
+  }
+
+  .project {
+    text-align: left;
+    margin: 5px;
+    background: #f8d896;
+    padding: 5px;
+    border: 5px solid #b58e67;
+    border-radius: 5px;
+    font-size: 22.8px;
+  }
+
+  .highlightedText {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+  }
+  footer a {
+    font-size: 24px;
+  }
+
+  .linklogo {
+    height: 60px;
+  }
+
+  #pathbuilder {
+    font-size: 22.8px;
+  }
+
+  #quizfrenzy {
+    font-size: 22.8px;
+  }
 }
 
 @media only screen and (max-width: 600px) {

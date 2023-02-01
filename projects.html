@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 
-<html lang="fi">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Projects</title>
+    <title>Tuomas Nummela | Projects</title>
     <meta
       name="description"
       content="A portfolio page for a Computer Science student."
@@ -25,7 +25,7 @@
 
   <body>
     <nav>
-      <a href="index.html"><img src="images/menulogo.png" /></a>
+      <a href="index.html"><img alt="Menulogo" src="images/menulogo.png" /></a>
       <div>
         <a class="highlightLink" href="projects.html">Projects</a>
         <a class="highlightLink" href="about.html">About me!</a>
@@ -34,56 +34,101 @@
 
     <div class="projectSection">
       <div class="projects">
-        <article class="project">
-          <a class="highlightLink" href="https://pathbuilder.herokuapp.com/"
-            >FindMyPath!</a
+        <div class="project">
+          <a
+            target="_blank"
+            class="highlightLink"
+            href="https://pathbuilder.herokuapp.com/"
+            >FindMyPath</a
           >
-          <div class="projectInfo">
-            <p>
-              Veljesten nimet vanhimmasta nuorimpaan ovat: Juhani, Tuomas, Aapo,
-              Simeoni, Timo, Lauri ja Eero. Ovat heistä Tuomas ja Aapo
-              kaksoispari ja samoin Timo ja Lauri. Juhanin, vanhimman veljen,
-              ikä on kaksikymmentä ja viisi vuotta, mutta Eero, nuorin heistä,
-              on tuskin nähnyt kahdeksantoista auringon kierrosta.
-            </p>
-            <img class="projectImg" src="images/pathbuilder.png" />
-          </div>
-        </article>
+          <a id="pathbuilder">
+            <div class="projectInfo">
+              <div>
+                <p>
+                  A web application for generating running paths when you need
+                  inspiration. Built using React, Node and MySQL. The app also
+                  uses the Google Maps API to visualize the path.
+                </p>
 
-        <article class="project">
-          <a class="highlightLink" href="https://quiz-frenzy.fly.dev/"
-            >Quiz-Frenzy!</a
+                <p>
+                  One of my hobbies is long-distance running. Last Spring I ran
+                  my first marathon and I plan to run another one this year too.
+                  I like to change up my running routes every once in a while
+                  but often I find it hard to come up with a good new route.
+                  This problem inspired me to build FindMyPath to test my
+                  Fullstack Development skills.
+                </p>
+
+                <p>
+                  Currently users can create new routes only in Espoo with a
+                  limited set of waypoints. Therefore the next step in
+                  developing FindMyPath is allowing users to pick any starting
+                  location, including their current location!
+                </p>
+              </div>
+
+              <img
+                alt="Pathbuilder project"
+                class="projectImg"
+                src="images/pathbuilder.png"
+              />
+            </div>
+          </a>
+        </div>
+
+        <div class="project">
+          <a
+            target="_blank"
+            class="highlightLink"
+            href="https://quiz-frenzy.fly.dev/"
+            >Quiz-Frenzy</a
           >
-          <div class="projectInfo">
-            <p>
-              Veljesten nimet vanhimmasta nuorimpaan ovat: Juhani, Tuomas, Aapo,
-              Simeoni, Timo, Lauri ja Eero. Ovat heistä Tuomas ja Aapo
-              kaksoispari ja samoin Timo ja Lauri. Juhanin, vanhimman veljen,
-              ikä on kaksikymmentä ja viisi vuotta, mutta Eero, nuorin heistä,
-              on tuskin nähnyt kahdeksantoista auringon kierrosta.
-            </p>
-            <img
-              class="projectImg"
-              id="pathbuilderImg"
-              src="images/quizfrenzy.png"
-            />
-          </div>
-        </article>
+          <a id="quizfrenzy">
+            <div class="projectInfo">
+              <div>
+                <p>
+                  A repeated learning web application made for the Web Software
+                  Development-course in Aalto incorporating token-based
+                  authentication. Built using Eta.js, Deno and SQL. Very
+                  Quizlet-like!
+                </p>
+
+                <p>
+                  The final project for the Aalto Software Development course
+                  summarises the course contents very well. All stack levels
+                  were explored on the course, starting with Eta for frontend,
+                  continuing with Deno and Oak for backend, and finishing with
+                  SQL for database functionality. In addition various specific
+                  themes very touched, such as authentication, data validation,
+                  and web security basics.
+                </p>
+              </div>
+              <img
+                class="projectImg"
+                alt="Quiz-Frenzy project"
+                id="quizfrenzyImg"
+                src="images/quizfrenzy.png"
+              />
+            </div>
+          </a>
+        </div>
       </div>
     </div>
     <footer>
-      <a class="highlightLink" href="mailto: tuomas.nummela.per@gmail.com">
+      <a class="highlightLink" href="mailto:tuomas.nummela.per@gmail.com">
         tuomas.nummela.per@gmail.com
       </a>
-      <a href="https://github.com/tuomax7"
-        ><img class="linklogo" src="images/github.png"
+      <a target="_blank" href="https://github.com/tuomax7"
+        ><img alt="Github" class="linklogo" src="images/github.png"
       /></a>
 
-      <a href="https://www.linkedin.com/in/tuomas-nummela-9596bb22b/"
-        ><img class="linklogo" src="images/linkedin.png"
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/tuomas-nummela-9596bb22b/"
+        ><img alt="LinkedIn" class="linklogo" src="images/linkedin.png"
       /></a>
-      <a href="https://t.me/tuomasnummela"
-        ><img class="linklogo" src="images/telegram.png"
+      <a target="_blank" href="https://t.me/tuomasnummela"
+        ><img alt="Telegram" class="linklogo" src="images/telegram.png"
       /></a>
     </footer>
   </body>

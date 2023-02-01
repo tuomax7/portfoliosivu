@@ -84,6 +84,31 @@ header {
   font-size: 2.4vw;
 }
 
+.projectImg {
+  width: 40%;
+  border: 3px solid #b58e67;
+  border-radius: 5px;
+}
+
+#pathbuilderImg {
+  width: 20%;
+}
+
+#profileImg {
+  width: 50%;
+  margin-right: 15px;
+}
+
+.projectInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlightedText {
+  font-size: 2.5vw;
+  font-family: "Roboto", sans-serif;
+}
+
 footer {
   display: flex;
   justify-content: space-between;

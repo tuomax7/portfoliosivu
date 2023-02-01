@@ -17,6 +17,19 @@ nav {
   justify-content: space-between;
 }
 
+.highlightLink:hover {
+  background-size: 0 4px, 100% 4px;
+}
+
+.highlightLink {
+  background: linear-gradient(to right, #b58e67, #b58e67),
+    linear-gradient(to right, #052f5f, #a5d2c7);
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
 nav div {
   display: flex;
   align-items: center;
@@ -26,8 +39,10 @@ nav div {
 nav img {
   width: 120px;
 }
+nav img:hover {
+}
 
-nav a h4 {
+nav a {
   font-weight: 700;
   font-size: 30px;
   text-align: center;
@@ -61,7 +76,7 @@ header {
   margin: 0px auto;
 }
 
-.projectSection h2 {
+.projectSection a {
   font-size: 3vw;
 }
 

@@ -39,8 +39,6 @@ nav div {
 nav img {
   width: 120px;
 }
-nav img:hover {
-}
 
 nav a {
   font-weight: 700;
@@ -132,4 +130,18 @@ footer {
 footer a {
   display: flex;
   font-size: 2vw;
+}
+
+@media only screen and (max-width: 600px) {
+  nav img {
+    width: 60px;
+  }
+  nav a {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #a5d2c7;
+    text-shadow: -1px 0 #052f5f, 0 1px #052f5f, 1px 0 #052f5f, 0 -1px #052f5f;
+    margin: 20px;
+  }
 }

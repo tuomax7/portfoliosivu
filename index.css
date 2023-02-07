@@ -125,6 +125,7 @@ header {
 .projectInfo {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .highlightedText {
@@ -194,6 +195,11 @@ footer a {
   nav img {
     width: 60px;
   }
+  .projectImg { 
+
+	height: intrinsic;
+
+}
   nav a {
     font-weight: 700;
     font-size: 20px;
@@ -206,3 +212,14 @@ footer a {
     height: 40px;
   }
 }
+
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+
+    .projectImg { 
+
+		display: block;
+        height: intrinsic;
+
+    }
+}}

@@ -108,19 +108,23 @@ header {
   height: fit-content;
   border: 3px solid #b58e67;
   border-radius: 5px;
+  height: intrinsic;
 }
 
 #luomuluolaImg {
   width: 40%;
+  height: intrinsic;
 }
 
 #quizfrenzyImg {
   width: 20%;
+  height: intrinsic;
 }
 
 #profileImg {
   width: 50%;
   margin-right: 15px;
+  height: intrinsic;
 }
 
 .projectInfo {
@@ -246,22 +250,22 @@ footer a {
   }
   #profileImg {
     width: 95%;
+    height: intrinsic;
   }
   .projectImg {
     width: 95%;
+    height: intrinsic;
   }
 
   #luomuluolaImg {
     width: 95%;
+    height: intrinsic;
   }
 
   #quizfrenzyImg {
     display: none;
     width: 95%;
-  }
-
-  #profileImg {
-    width: 100%;
+    height: intrinsic;
   }
 }
 

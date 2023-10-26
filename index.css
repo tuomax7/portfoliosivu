@@ -81,7 +81,7 @@ header {
 }
 
 .project a {
-  font-size: 2.4rem;
+  font-size: 1.7rem;
 }
 
 .projectSection h2 {
@@ -100,7 +100,7 @@ header {
   padding: 10px;
   border: 5px solid #b58e67;
   border-radius: 5px;
-  font-size: 1.9rem;
+  font-size: 1.5rem;
 }
 
 .projectImg {
@@ -130,7 +130,7 @@ header {
 .projectInfo {
   display: flex;
   justify-content: space-between;
-  font-size: 22.8px;
+  font-size: 16px;
 }
 
 .projectInfo p {
@@ -150,7 +150,7 @@ footer {
   align-items: center;
 }
 footer a {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .linklogo {
@@ -185,7 +185,7 @@ footer a {
     font-family: "Roboto", sans-serif;
   }
   footer a {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .linklogo {
@@ -242,7 +242,7 @@ footer a {
     align-items: center;
   }
   footer a {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 20px;
   }
   footer a img {

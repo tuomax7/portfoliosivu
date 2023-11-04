@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  background: $marzipan;
+  border-bottom: 10px solid $beige;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+    align-items: center;
+    float: right;
+  }
+
+  img {
+    width: 120px;
+  }
+
+  a {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: $turqoise;
+    text-shadow: -1px 0 $ocean, 0 1px $ocean, 1px 0 $ocean, 0 -1px $ocean;
+    margin: 20px;
+    img:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  nav {
+    a {
+      font-weight: 700;
+      font-size: 20px;
+      text-align: center;
+      color: $turqoise;
+      text-shadow: -1px 0 $ocean, 0 1px $ocean, 1px 0 $ocean, 0 -1px $ocean;
+      margin: 20px;
+    }
+    img {
+      width: 60px;
+    }
+  }
+}

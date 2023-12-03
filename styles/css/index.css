@@ -1,7 +1,7 @@
 nav {
   display: flex;
   background: #f8d896;
-  border-bottom: 10px solid #b58e67;
+  border-bottom: 5px solid #b58e67;
   justify-content: space-between;
 }
 nav div {
@@ -10,69 +10,38 @@ nav div {
   float: right;
 }
 nav img {
-  width: 120px;
+  width: 80px;
 }
 nav a {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   color: #a5d2c7;
   text-shadow: -1px 0 #052f5f, 0 1px #052f5f, 1px 0 #052f5f, 0 -1px #052f5f;
-  margin: 20px;
+  margin: 5px;
 }
 nav a img:hover {
   transform: scale(1.05);
 }
 
-@media only screen and (max-width: 600px) {
-  nav a {
-    font-weight: 700;
-    font-size: 20px;
-    text-align: center;
-    color: #a5d2c7;
-    text-shadow: -1px 0 #052f5f, 0 1px #052f5f, 1px 0 #052f5f, 0 -1px #052f5f;
-    margin: 20px;
-  }
-  nav img {
-    width: 60px;
-  }
-}
 footer {
   display: flex;
-  justify-content: space-between;
   margin: 20px;
   align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 footer a {
-  font-size: 1rem;
+  font-size: 20px;
 }
 
-@media screen and (min-width: 1200px) {
-  footer a {
-    font-size: 22px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  footer {
-    display: block;
-    justify-content: space-between;
-    align-items: center;
-  }
-  footer a {
-    font-size: 1.2rem;
-    margin: 20px;
-  }
-  footer a img {
-    margin-top: 15px;
-  }
-}
 body {
   background-color: #f9f0e0;
   color: #052f5f;
   margin: 0 auto;
   font-family: "Source Code Pro", monospace;
   font-style: normal;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 a {
@@ -105,8 +74,8 @@ header img {
   left: 16px;
   font-family: "Roboto", sans-serif;
   color: #f9f0e0;
+  font-size: 20px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-size: 2.5rem;
 }
 
 .projectSection {
@@ -116,7 +85,7 @@ header img {
 }
 
 .projectSection h2 {
-  font-size: 3rem;
+  font-size: 30px;
 }
 
 .projects {
@@ -131,34 +100,34 @@ header img {
   padding: 10px;
   border: 5px solid #b58e67;
   border-radius: 5px;
-  font-size: 1.5rem;
+  font-size: 16px;
 }
 .project a {
-  font-size: 1.7rem;
+  font-size: 22px;
 }
 
 .projectImg {
-  width: 40%;
   height: fit-content;
   border: 3px solid #b58e67;
   border-radius: 5px;
   height: intrinsic;
 }
 
+#pathbuilderImg {
+  width: 300px;
+}
+
 #luomuluolaImg {
-  width: 40%;
-  height: intrinsic;
+  width: 200px;
 }
 
 #quizfrenzyImg {
-  width: 20%;
-  height: intrinsic;
+  width: 150px;
 }
 
 #profileImg {
-  width: 50%;
-  margin-right: 15px;
-  height: intrinsic;
+  width: 300px;
+  margin-right: 10px;
 }
 
 .projectInfo {
@@ -167,8 +136,9 @@ header img {
   font-size: 16px;
 }
 .projectInfo p {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  min-width: 200px;
 }
 
 .highlightedText {
@@ -180,73 +150,13 @@ header img {
   height: 60px;
 }
 
-@media screen and (min-width: 1200px) {
-  .top-left {
-    font-size: 30px;
-  }
-  .projectSection a {
-    font-size: 28.8px;
-  }
-  .projectSection h2 {
-    font-size: 36px;
-  }
-  .project {
-    margin: 5px;
-    background: #f8d896;
-    padding: 5px;
-    border: 5px solid #b58e67;
-    border-radius: 5px;
-    font-size: 22.8px;
-    text-align: justify;
-  }
-  .highlightedText {
-    font-size: 30px;
-    font-family: "Roboto", sans-serif;
-  }
-  .linklogo {
-    height: 60px;
-  }
-}
 @media only screen and (max-width: 600px) {
-  .linklogo {
-    height: 40px;
-  }
-  .top-left {
-    font-size: 0.6rem;
-    background: rgba(181, 142, 103, 0.9);
-    border-radius: 5px;
-  }
-  .project a {
-    font-size: 1.25rem;
-  }
-  .projectSection h2 {
-    font-size: 1.5rem;
-  }
   .project {
-    font-size: 13.7px;
     display: block;
     text-align: justify;
   }
   .projectInfo {
-    font-size: 13.7px;
     display: block;
-  }
-  #profileImg {
-    width: 95%;
-    height: intrinsic;
-  }
-  .projectImg {
-    width: 95%;
-    height: intrinsic;
-  }
-  #luomuluolaImg {
-    width: 95%;
-    height: intrinsic;
-  }
-  #quizfrenzyImg {
-    display: none;
-    width: 95%;
-    height: intrinsic;
   }
 }
 @media not all and (min-resolution: 0.001dpcm) {
